@@ -6,16 +6,16 @@
 ## Dependencies
 
 - React
-- Semantic UI
 - NodeJs
 
 ## Development Setup
 
-Install `nodejs`, `react` and `semantic ui` on your machine.
+Install `nodejs` and `react` on your machine.
 
 **Running the app**
-
-- `npm start`
+- Clone the repo on your local machine
+- Run `npm install` on your terminal
+- Run `npm start`
 
 **Running the test**
 - `npm test`
