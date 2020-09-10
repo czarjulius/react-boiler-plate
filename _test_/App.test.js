@@ -1,6 +1,9 @@
+import React from "react";
+import { shallow } from "enzyme";
+import App from '../src/App';
 
-describe("Basic Test", () => {
-  it("Addition", () => {
-    expect(2 + 2).toEqual(4);
+describe("App Component", () => {
+  it("renders without crashing", () => {
+   shallow(<App />);
   });
 });
